@@ -6,11 +6,7 @@ import Button from '@material-ui/core/Button';
 import { configure, mount, shallow } from 'enzyme';
 import {expect} from 'chai';
 
-/*it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Login />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});*/
+
 
 import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() });
