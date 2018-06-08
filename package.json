@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "test:ci": "mocha --reporter mocha-teamcity-reporter Tests",
+    "test:ci": "mocha --reporter mocha-teamcity-reporter ./Tests/*.test.js",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
