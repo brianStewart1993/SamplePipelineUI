@@ -193,10 +193,10 @@ class LoginForm extends React.Component{
               </CardContent>
 
               <CardActions>
-                <Button type="submit" variant="raised" color="primary">
+                <Button id="login-btn" type="submit" variant="raised" color="primary">
                   Login
                 </Button>
-                <Link to="sign-up">
+                <Link id="sign-up" to="sign-up">
                   <Button color="primary">
                     Sign Up
                   </Button>

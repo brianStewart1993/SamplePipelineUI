@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correct layout 1`] = `
+Array [
+  <BrowserRouter>
+    <div
+        id="app"
+    >
+        <WithStyles(AppBar)
+            color="primary"
+            position="static"
+        >
+            <WithStyles(Toolbar)>
+                <WithStyles(Typography)
+                    color="inherit"
+                    variant="title"
+                >
+                    Cash Secured Portal
+                </WithStyles(Typography)>
+                <WithStyles(Button)
+                    className="logout-btn"
+                    color="inherit"
+                >
+                    <Link
+                        replace={false}
+                        to="/"
+                    >
+                        Logout
+                    </Link>
+                </WithStyles(Button)>
+            </WithStyles(Toolbar)>
+        </WithStyles(AppBar)>
+        <Route
+            component={[Function]}
+            exact={true}
+            path="/"
+        />
+        <Route
+            component={[Function]}
+            path="/sign-up"
+        />
+        <Route
+            component={[Function]}
+            path="/user-list"
+        />
+        <Route
+            component={[Function]}
+            path="/edit-user/:id"
+        />
+    </div>
+</BrowserRouter>,
+]
+`;
