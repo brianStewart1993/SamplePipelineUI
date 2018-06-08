@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "test:ci": "mocha --reporter mocha-teamcity-reporter test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -24,6 +25,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "jquery-validation": "^1.17.0",
     "mocha": "^5.2.0",
+    "mocha-teamcity-reporter": "^2.4.0",
     "react-addons-test-utils": "^15.6.2"
   }
 }
