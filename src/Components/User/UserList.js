@@ -24,6 +24,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
+import { apiUrl } from "../../Constants/urls";
 
 
 let id = 0;
@@ -40,7 +41,7 @@ const data = [
   createData('Gingerbread', 356, 16.0, 49, 3.9),
 ];
 
-const url = "http://10.150.59.6:8080/";
+const url = apiUrl;
 
 class UserList extends React.Component {
 

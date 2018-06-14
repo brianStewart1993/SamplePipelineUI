@@ -11,9 +11,10 @@ import Typography from '@material-ui/core/Typography';
 import './User.css';
 import axios from 'axios';
 import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
+import { apiUrl } from "../../Constants/urls";
 
 class UserEdit extends React.Component{
-  url = "http://10.150.59.6:8080/";
+  url = apiUrl;
   constructor(props){
     super(props);
     this.handleUsernameChange = this.handleUsernameChange.bind(this);

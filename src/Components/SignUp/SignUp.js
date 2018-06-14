@@ -10,9 +10,10 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import './SignUp.css';
 import axios from 'axios';
+import { apiUrl } from "../../Constants/urls";
 
 class LoginForm extends React.Component{
-  url = "http://10.150.59.6:8080/";
+  url = apiUrl;
   constructor(props){
     super(props);
     this.handleUsernameChange = this.handleUsernameChange.bind(this);
@@ -194,7 +195,7 @@ class LoginForm extends React.Component{
               </CardContent>
 
               <CardActions>
-                <Button type="submit" variant="raised" color="primary">
+                <Button id="sign-up" type="submit" variant="raised" color="primary">
                   Sign Up
                 </Button>
 
