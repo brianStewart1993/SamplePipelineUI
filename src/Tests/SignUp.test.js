@@ -116,7 +116,7 @@ describe('validate',function (){
     const wrapper = shallow(<SignUp />);
     wrapper.setState({ username: "username", password: "" });
     const isValid = wrapper.instance().validate();
-    expect(wrapper.state().isValid).to.equal(true);
+    expect(wrapper.state().isValid).to.equal(false);
   });
 
   it('should set error message in state if password empty',function(){
